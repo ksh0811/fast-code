@@ -7,7 +7,7 @@ pipeline {
         GITSSHADD = 'git@github.com:ksh0811/fast-code.git'
         GITCREDENTIAL = 'git_cre'
         DOCKERHUB = 'ksh0811/fast'
-        DOCKERHUBCREDENTIAL = 'docker_cre'
+        DOCKERHUBCREDENTIAL = 'docker_cre'//
     }
     stages {
         stage('start') {
