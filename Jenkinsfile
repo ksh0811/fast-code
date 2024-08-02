@@ -33,6 +33,7 @@ pipeline {
                 // oolralra/fast:<빌드넘버> 와 같은 이미지가 만들어질 예정.
                
             }
+            
             post {
                 failure {
                     sh "echo image build failed"
