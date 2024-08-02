@@ -25,7 +25,7 @@ pipeline {
         }
     }
 
-    sh "docker build -t ${DOCKERHUB}:${currentBuild.number} ."
-    sh "docker build -t ${DOCKERHUB}:latest ."
+    sh "docker build -t ksh0811/fast:${currentBuild.number} ."
+    sh "docker build -t ksh0811/fast:latest ."
 }
 
